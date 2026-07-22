@@ -19,7 +19,7 @@ const startServer = async () => {
     app.listen(PORT, () => { // Start Express server (Node.js: Server Setup)
       console.log(`\n Server is running on port ${PORT}`); // Template literal (JS Essentials: Template Literals)
       console.log(` Environment: ${process.env.NODE_ENV || "development"}`);
-      console.log(` URL: http://localhost:${PORT}\n`);
+      console.log(` URL: https://ai-resume-builder-navy-chi.vercel.app/:${PORT}\n`);
     });
   } catch (error) {
     console.error("Failed to start server:", error.message);
