@@ -3,7 +3,7 @@
 // ============================================
 // Reference: fetch(), async/await - reference-javascript.md
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://ai-resume-builder-2-mpet.onrender.com/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://ai-resume-builder-2-mpet.onrender.com';
 
 const fetchApi = async (endpoint, options = {}) => {
   const token = localStorage.getItem('token');
